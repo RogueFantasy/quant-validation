@@ -1,0 +1,10 @@
+# never commit model weights or environments
+*.safetensors
+*.bin
+*.gguf
+qwen-*/
+*-awq/
+*-gptq/
+llm/
+__pycache__/
+*.pyc
